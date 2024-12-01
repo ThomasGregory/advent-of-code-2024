@@ -34,10 +34,5 @@ def format_input(filepath):
     return col1, col2
 
 if __name__ == "__main__":
-    output_A = solve_A('input.txt')
-    output_string_A = f'\nSolution to Part A is {output_A}'
-    print(output_string_A)
-
-    output_B = solve_B('input.txt')
-    output_string_B = f'\nSolution to Part B is {output_B}'
-    print(output_string_B)
+    print(f"\nSolution to Part A is {solve_A('input.txt')}")
+    print(f"\nSolution to Part B is {solve_B('input.txt')}")
